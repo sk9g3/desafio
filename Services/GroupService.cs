@@ -68,37 +68,5 @@ namespace desafio.Services
 
             return base.Save(group);
         }
-
-        // public void Delete(string id)
-        // {
-        //     var company = groupRepository.FindAll().FirstOrDefault(company => company.id.Equals(id));
-        //     if (company == null)
-        //     {
-        //         //ERRO
-        //     }
-        //     var savedCompany = groupRepository.FindAll();
-        //     savedCompany.Remove(company);
-        //     groupRepository.Save(savedCompany);
-        // }
-
-
-        // public StatusData FindById(int id)
-        // {
-        //     try
-        //     {
-        //         var company = groupRepository.FindById(id);
-
-        //         if (company == null)
-        //         {
-        //             return new StatusData(HttpStatusCode.BadRequest, $"Não encontrado.");
-        //         }
-        //         return new StatusData(HttpStatusCode.OK, company);
-        //     }
-        //     catch
-        //     {
-        //         return new StatusData(HttpStatusCode.NotFound, "Ocorreu um erro, tente novamente mais tarde.");
-        //     }
-
-        // }
     }
 }
